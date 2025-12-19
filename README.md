@@ -6,7 +6,8 @@ Catch up with what I've been doing lately!
 
 - <img width="20" height="20" alt="Symfony" src="https://img.icons8.com/ios_filled/200/40C057/git.png" align="middle" /> [symfony/symfony #62824](https://github.com/symfony/symfony/pull/62824)
 - <img width="20" height="20" alt="Symfony" src="https://img.icons8.com/ios_filled/200/40C057/git.png" align="middle" /> [symfony/symfony #62341](https://github.com/symfony/symfony/pull/62341)
-- <img width="20" height="20" alt="Symfony" src="https://img.icons8.com/ios_filled/200/40C057/git.png" align="middle" /> [symfony/maker-bundle #1761](https://github.com/symfony/maker-bundle/pull/1761)
+- <img width="20" height="20" alt="Symfony" src="https://img.icons8.com/ios_filled/200/40C057/git.png" align="middle" /> [symfony/symfony #62827](https://github.com/symfony/symfony/pull/62827)
+
 - <img width="20" height="20" alt="Symfony" src="https://img.icons8.com/ios_filled/200/40C057/git.png" align="middle" /> [symfony/maker-bundle #1761](https://github.com/symfony/maker-bundle/pull/1761)
 - <img width="20" height="20" alt="Symfony" src="https://img.icons8.com/ios_filled/200/40C057/git.png" align="middle" /> [symfony/maker-bundle #1759](https://github.com/symfony/maker-bundle/pull/1759)
 
