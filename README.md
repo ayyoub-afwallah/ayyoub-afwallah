@@ -7,6 +7,7 @@
 - <img width="20" height="20" alt="Symfony" src="https://github.com/user-attachments/assets/fdcc624a-bf6c-4c1a-a1a3-b8a43422764b" align="middle" /> [symfony/HttpKernel #62488](https://github.com/symfony/symfony/pull/62488)
   
 - <img width="20" height="20" alt="Symfony" src="https://github.com/user-attachments/assets/fdcc624a-bf6c-4c1a-a1a3-b8a43422764b" align="middle" /> [symfony/symfony-docs #21590](https://github.com/symfony/symfony-docs/pull/21590)
+- <img width="20" height="20" alt="Symfony" src="https://github.com/user-attachments/assets/fdcc624a-bf6c-4c1a-a1a3-b8a43422764b" align="middle" /> [symfony/symfony-docs #21658](https://github.com/symfony/symfony-docs/pull/21658)
 
   
 - <img width="20" height="20" alt="Symfony" src="https://img.icons8.com/ios_filled/200/40C057/git.png" align="middle" /> [symfony/symfony #62924](https://github.com/symfony/symfony/pull/62924)
