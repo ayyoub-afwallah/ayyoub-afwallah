@@ -5,6 +5,7 @@
 * **DependencyInjection** | [Leverage AsTaggedItem for voters #62824](https://github.com/symfony/symfony/pull/62824) ![](https://img.shields.io/badge/Merged-purple?style=flat-square&logo=github)
 * **Console** | [Fix choice autocomplete issue when string has spaces #62827](https://github.com/symfony/symfony/pull/62827) ![](https://img.shields.io/badge/Merged-purple?style=flat-square&logo=github)
 * **HttpKernel** | [Make `#[Cache]` respect all explicit cache directives set in controller #62488](https://github.com/symfony/symfony/pull/62488) ![](https://img.shields.io/badge/Merged-purple?style=flat-square&logo=github)
+* **DependencyInjection** | [[DependencyInjection] Add #[MapParameters] attribute #63103](https://github.com/symfony/symfony/pull/63103) ![](https://img.shields.io/badge/Open-green?style=flat-square&logo=github)
 * **Process** | [Fix escaping of arguments with equal signs on Windows #62924](https://github.com/symfony/symfony/pull/62924) ![](https://img.shields.io/badge/Open-green?style=flat-square&logo=github)
 * **Security** | [Add `#[AsVoter]` attribute to configure voter priority #62341](https://github.com/symfony/symfony/pull/62341) ![](https://img.shields.io/badge/Open-green?style=flat-square&logo=github)
 ### 🛠️ Developer Experience (MakerBundle)
