@@ -13,7 +13,7 @@
 ### 🤖 CarsonBot
 * [Auto-remove outdated bot comments #294](https://github.com/symfony-tools/carsonbot/pull/294) ![](https://img.shields.io/badge/Open-green?style=flat-square)
 * [Add missing changelog reminder for feature PRs #293](https://github.com/symfony-tools/carsonbot/pull/293) ![](https://img.shields.io/badge/Open-green?style=flat-square)
-### 🔧 Fabbot
+### 🤖 Fabbot
 * [Add check for commit attribution #15](https://github.com/symfony-tools/fabbot/pull/15) ![](https://img.shields.io/badge/Open-green?style=flat-square)
 ### 🛠️ Maker Bundle
 * [[Generator] correct createClassNameDetails doc #1143](https://github.com/symfony/maker-bundle/pull/1143) ![](https://img.shields.io/badge/Merged-purple?style=flat-square)
