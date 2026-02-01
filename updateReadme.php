@@ -28,7 +28,7 @@ const REPOS = [
                 'order' => 3
         ],
         'symfony-tools/fabbot' => [
-                'title' => '🔧 Fabbot',
+                'title' => '🤖 Fabbot',
                 'order' => 4
         ],
         'symfony/maker-bundle' => [
@@ -272,7 +272,7 @@ class PRFormatter
 
     public function formatPR(array $pr): string
     {
-        $component = $this->extractComponent($pr['title'], $pr['repository']);
+        //$component = $this->extractComponent($pr['title'], $pr['repository']);
         $title = $pr['title'];
         $number = $pr['number'];
         $url = $pr['html_url'];
@@ -285,7 +285,7 @@ class PRFormatter
             $badge = STATUS_BADGES[$status] ?? STATUS_BADGES['open'];
         }
 
-        return "* **{$component}** | [{$title} #{$number}]({$url}) {$badge}";
+        return "* [{$title} #{$number}]({$url}) {$badge}";
     }
 
     public function groupByRepo(array $prs): array
@@ -326,8 +326,8 @@ class PRFormatter
         $grouped = $this->groupByRepo($prs);
 
         $lines = [
-                '## 🚀 Recent Symfony Contributions',
-                '*A complete collection of my contributions to the ecosystem.*'
+                '## Hi There, catch up with what i have been doing lately !',
+                '*A collection of my recent contributions to the Symfony ecosystem.*'
         ];
 
         // Process repos in defined order
@@ -342,7 +342,8 @@ class PRFormatter
             $sortedPRs = $this->sortPRs($grouped[$repoName]);
 
             foreach ($sortedPRs as $pr) {
-                $lines[] = $this->formatPR($pr);
+                if($pr['status'] != 'closed')
+                    $lines[] = $this->formatPR($pr);
             }
         }
 
@@ -504,7 +505,7 @@ function pushToGitHub()
     echo "📝 Committing changes...\n";
 
     // Add the file
-    exec('git add ' . BIO_FILE . ' 2>&1', $addOutput, $addReturn);
+    exec('git add . 2>&1', $addOutput, $addReturn);
     if ($addReturn !== 0) {
         echo "❌ Failed to add file: " . implode("\n", $addOutput) . "\n";
         return false;
