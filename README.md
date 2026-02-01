@@ -7,12 +7,6 @@
 * **DependencyInjection** | [[DependencyInjection][SecurityBundle] Leverage `#[AsTaggedItem]` for voters #62824](https://github.com/symfony/symfony/pull/62824) ![](https://img.shields.io/badge/Merged-purple?style=flat-square)
 * **HttpKernel** | [[HttpKernel] Make `#[Cache]` respect all explicit cache directives set in controller #62488](https://github.com/symfony/symfony/pull/62488) ![](https://img.shields.io/badge/Merged-purple?style=flat-square)
 * **FrameworkBundle** | [[FrameworkBundle] Add `--show-decorator-stack` option to `debug:container` #63242](https://github.com/symfony/symfony/pull/63242) ![](https://img.shields.io/badge/Draft-gray?style=flat-square)
-* **DependencyInjection** | [[DependencyInjection] Add `#[MapParameters]` attribute #63103](https://github.com/symfony/symfony/pull/63103) ![](https://img.shields.io/badge/Closed-red?style=flat-square)
-* **FrameworkBundle** | [[FrameworkBundle] Fix `debug:container --tag` not showing priority of `#[AsTaggedItem]` #63018](https://github.com/symfony/symfony/pull/63018) ![](https://img.shields.io/badge/Closed-red?style=flat-square)
-* **Process** | [[Process] Fix escaping of arguments with equal signs on Windows #62924](https://github.com/symfony/symfony/pull/62924) ![](https://img.shields.io/badge/Closed-red?style=flat-square)
-* **Cache** | [[Cache][HttpKernel] Fix `#[Cache]` overrides controller no-store directive #62708](https://github.com/symfony/symfony/pull/62708) ![](https://img.shields.io/badge/Closed-red?style=flat-square)
-* **Security** | [[Security] Add `#[AsVoter]` attribute to configure voter priority #62341](https://github.com/symfony/symfony/pull/62341) ![](https://img.shields.io/badge/Closed-red?style=flat-square)
-* **HttpKernel** | [[HttpKernel] Add release link to welcome page #62119](https://github.com/symfony/symfony/pull/62119) ![](https://img.shields.io/badge/Closed-red?style=flat-square)
 ### 📚 Documentation
 * **Security** | [[Security] Document #[AsTaggedItem] support for voter priority #21658](https://github.com/symfony/symfony-docs/pull/21658) ![](https://img.shields.io/badge/Published-blue?style=flat-square)
 * **Cache** | [[Cache] Clarify `#[Cache]` attribute precedence behavior #21590](https://github.com/symfony/symfony-docs/pull/21590) ![](https://img.shields.io/badge/Published-blue?style=flat-square)
