@@ -8,6 +8,7 @@
 // Configuration
 const GITHUB_USERNAME = 'ayyoub-afwallah';
 const BIO_FILE = 'README.md';
+const SCRIPT_FILE = __FILE__;
 const API_BASE = 'https://api.github.com';
 
 // Get GitHub token from environment or set it here
@@ -505,7 +506,7 @@ function pushToGitHub()
     echo "📝 Committing changes...\n";
 
     // Add the file
-    exec('git add . 2>&1', $addOutput, $addReturn);
+    exec('git add ' . BIO_FILE .' '.SCRIPT_FILE.' 2>&1', $addOutput, $addReturn);
     if ($addReturn !== 0) {
         echo "❌ Failed to add file: " . implode("\n", $addOutput) . "\n";
         return false;
