@@ -1,19 +1,29 @@
 ## 🚀 Recent Symfony Contributions
-*A collection of my latest contributions to the Symfony framework and ecosystem.*
-### 🏗️ Symfony Core (symfony/symfony)
-* **FrameworkBundle** | [Fix `debug:container --tag=service.tag` not showing priority of `#[AsTaggedItem]` #63028](https://github.com/symfony/symfony/pull/63028) ![](https://img.shields.io/badge/Merged-purple?style=flat-square&logo=github)
-* **DependencyInjection** | [Leverage AsTaggedItem for voters #62824](https://github.com/symfony/symfony/pull/62824) ![](https://img.shields.io/badge/Merged-purple?style=flat-square&logo=github)
-* **Console** | [Fix choice autocomplete issue when string has spaces #62827](https://github.com/symfony/symfony/pull/62827) ![](https://img.shields.io/badge/Merged-purple?style=flat-square&logo=github)
-* **HttpKernel** | [Make `#[Cache]` respect all explicit cache directives set in controller #62488](https://github.com/symfony/symfony/pull/62488) ![](https://img.shields.io/badge/Merged-purple?style=flat-square&logo=github)
-* **DependencyInjection** | [[DependencyInjection] Add #[MapParameters] attribute #63103](https://github.com/symfony/symfony/pull/63103) ![](https://img.shields.io/badge/Open-green?style=flat-square&logo=github)
-* **Process** | [Fix escaping of arguments with equal signs on Windows #62924](https://github.com/symfony/symfony/pull/62924) ![](https://img.shields.io/badge/Open-green?style=flat-square&logo=github)
-* **Security** | [Add `#[AsVoter]` attribute to configure voter priority #62341](https://github.com/symfony/symfony/pull/62341) ![](https://img.shields.io/badge/Open-green?style=flat-square&logo=github)
-### 🛠️ Developer Experience (MakerBundle)
-* **MakerBundle** | [Fix invokable `-i` conflict with APP_ID `-i` #1761](https://github.com/symfony/maker-bundle/pull/1761) ![](https://img.shields.io/badge/Open-green?style=flat-square&logo=github)
-* **MakerBundle** | [Add Missing Vote param in `voteOnAttribute()` #1759](https://github.com/symfony/maker-bundle/pull/1759) ![](https://img.shields.io/badge/Open-green?style=flat-square&logo=github)
-### 📚 Documentation (symfony-docs)
-* **Documentation** | [Clarify `#[Cache]` attribute precedence behavior #21590](https://github.com/symfony/symfony-docs/pull/21590) ![](https://img.shields.io/badge/Published-blue?style=flat-square)
-* **Documentation** | [Document #[AsTaggedItem] support for voter priority #21658](https://github.com/symfony/symfony-docs/pull/21658) ![](https://img.shields.io/badge/Published-blue?style=flat-square)
-
+*A complete collection of my contributions to the ecosystem.*
+### 🏗️ Symfony Core
+* **DependencyInjection** | [[DependencyInjection] Add `target` parameter to `#[AsAlias]` attribute #63181](https://github.com/symfony/symfony/pull/63181) ![](https://img.shields.io/badge/Merged-purple?style=flat-square)
+* **FrameworkBundle** | [[FrameworkBundle] Fix `debug:container --tag=service.tag` not showing priority of `#[AsTaggedItem]` #63028](https://github.com/symfony/symfony/pull/63028) ![](https://img.shields.io/badge/Merged-purple?style=flat-square)
+* **Console** | [[Console] Fix choice autocomplete issue when string has spaces #62827](https://github.com/symfony/symfony/pull/62827) ![](https://img.shields.io/badge/Merged-purple?style=flat-square)
+* **DependencyInjection** | [[DependencyInjection][SecurityBundle] Leverage `#[AsTaggedItem]` for voters #62824](https://github.com/symfony/symfony/pull/62824) ![](https://img.shields.io/badge/Merged-purple?style=flat-square)
+* **HttpKernel** | [[HttpKernel] Make `#[Cache]` respect all explicit cache directives set in controller #62488](https://github.com/symfony/symfony/pull/62488) ![](https://img.shields.io/badge/Merged-purple?style=flat-square)
+* **FrameworkBundle** | [[FrameworkBundle] Add `--show-decorator-stack` option to `debug:container` #63242](https://github.com/symfony/symfony/pull/63242) ![](https://img.shields.io/badge/Draft-gray?style=flat-square)
+* **DependencyInjection** | [[DependencyInjection] Add `#[MapParameters]` attribute #63103](https://github.com/symfony/symfony/pull/63103) ![](https://img.shields.io/badge/Closed-red?style=flat-square)
+* **FrameworkBundle** | [[FrameworkBundle] Fix `debug:container --tag` not showing priority of `#[AsTaggedItem]` #63018](https://github.com/symfony/symfony/pull/63018) ![](https://img.shields.io/badge/Closed-red?style=flat-square)
+* **Process** | [[Process] Fix escaping of arguments with equal signs on Windows #62924](https://github.com/symfony/symfony/pull/62924) ![](https://img.shields.io/badge/Closed-red?style=flat-square)
+* **Cache** | [[Cache][HttpKernel] Fix `#[Cache]` overrides controller no-store directive #62708](https://github.com/symfony/symfony/pull/62708) ![](https://img.shields.io/badge/Closed-red?style=flat-square)
+* **Security** | [[Security] Add `#[AsVoter]` attribute to configure voter priority #62341](https://github.com/symfony/symfony/pull/62341) ![](https://img.shields.io/badge/Closed-red?style=flat-square)
+* **HttpKernel** | [[HttpKernel] Add release link to welcome page #62119](https://github.com/symfony/symfony/pull/62119) ![](https://img.shields.io/badge/Closed-red?style=flat-square)
+### 📚 Documentation
+* **Security** | [[Security] Document #[AsTaggedItem] support for voter priority #21658](https://github.com/symfony/symfony-docs/pull/21658) ![](https://img.shields.io/badge/Published-blue?style=flat-square)
+* **Cache** | [[Cache] Clarify `#[Cache]` attribute precedence behavior #21590](https://github.com/symfony/symfony-docs/pull/21590) ![](https://img.shields.io/badge/Published-blue?style=flat-square)
+### 🤖 CarsonBot
+* **CarsonBot** | [Auto-remove outdated bot comments #294](https://github.com/symfony-tools/carsonbot/pull/294) ![](https://img.shields.io/badge/Open-green?style=flat-square)
+* **CarsonBot** | [Add missing changelog reminder for feature PRs #293](https://github.com/symfony-tools/carsonbot/pull/293) ![](https://img.shields.io/badge/Open-green?style=flat-square)
+### 🔧 Fabbot
+* **Fabbot** | [Add check for commit attribution #15](https://github.com/symfony-tools/fabbot/pull/15) ![](https://img.shields.io/badge/Open-green?style=flat-square)
+### 🛠️ Maker Bundle
+* **Generator** | [[Generator] correct createClassNameDetails doc #1143](https://github.com/symfony/maker-bundle/pull/1143) ![](https://img.shields.io/badge/Merged-purple?style=flat-square)
+* **maker:controller** | [[maker:controller] Fix invokable `-i` conflict with APP_ID  `-i` #1761](https://github.com/symfony/maker-bundle/pull/1761) ![](https://img.shields.io/badge/Open-green?style=flat-square)
+* **Make:Voter** | [[Make:Voter] Add Missing Vote param in `voteOnAttribute()` #1759](https://github.com/symfony/maker-bundle/pull/1759) ![](https://img.shields.io/badge/Open-green?style=flat-square)
 ---
-💬 **[View my full PR history](https://github.com/pulls?q=is%3Apr+is%3Amerged+mentions%3Aayyoub-afwallah)**
+💬 **[View my full PR history](https://github.com/pulls?q=is%3Apr+author%3Aayyoub-afwallah)**
