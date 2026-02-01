@@ -1,5 +1,5 @@
-## 🚀 Recent Symfony Contributions
-*A complete collection of my contributions to the ecosystem.*
+## Hi There, catch up with what i have been doing lately !
+*A collection of my recent contributions to the Symfony ecosystem.*
 ### 🏗️ Symfony Core
 * [[DependencyInjection] Add `target` parameter to `#[AsAlias]` attribute #63181](https://github.com/symfony/symfony/pull/63181) ![](https://img.shields.io/badge/Merged-purple?style=flat-square)
 * [[FrameworkBundle] Fix `debug:container --tag=service.tag` not showing priority of `#[AsTaggedItem]` #63028](https://github.com/symfony/symfony/pull/63028) ![](https://img.shields.io/badge/Merged-purple?style=flat-square)
