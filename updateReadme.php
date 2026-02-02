@@ -466,6 +466,18 @@ function main()
         $badgeCountInFile = substr_count($writtenContent, '![](https://img.shields.io/badge/');
         echo "✓ Verification: Found {$badgeCountInFile} badges in the written file\n";
 
+        // Robustness Check: Ensure no redundant headers
+        $startMarker = '## Hi There, catch up with what i have been doing lately !';
+        $headerCount = substr_count($writtenContent, $startMarker);
+
+        if ($headerCount !== 1) {
+            echo "\n❌ Safety Check Failed: Found {$headerCount} occurrences of the header. Expected exactly 1.\n";
+            echo "   This indicates potential duplication or corruption. Aborting push.\n";
+            return;
+        }
+
+        echo "✓ Safety Check: Content structure looks correct (single header found).\n";
+
         // Push to GitHub
         echo "\n📤 Pushing to GitHub...\n";
         pushToGitHub();
