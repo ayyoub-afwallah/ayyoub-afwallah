@@ -368,7 +368,7 @@ class BioUpdater
 
     public function update(string $newContent): bool
     {
-        $startMarker = '## 🚀 Recent Symfony Contributions';
+        $startMarker = '## Hi There, catch up with what i have been doing lately !';
         $endMarker = '💬 **[View my full PR history]';
 
         if (!file_exists($this->filepath)) {
