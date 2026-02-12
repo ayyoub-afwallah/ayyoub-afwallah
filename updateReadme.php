@@ -526,7 +526,8 @@ function pushToGitHub()
 
     // Commit
     $commitMessage = '🤖 Auto-update GitHub contributions [' . date('Y-m-d H:i:s') . ']';
-    exec('git commit -m ' . escapeshellarg($commitMessage) . ' 2>&1', $commitOutput, $commitReturn);
+    $author = 'Ayyoub AFW-ALLAH <ayyoub.afwallah@gmail.com>';
+    exec('git commit --author=' . escapeshellarg($author) . ' -m ' . escapeshellarg($commitMessage) . ' 2>&1', $commitOutput, $commitReturn);
     if ($commitReturn !== 0) {
         echo "❌ Failed to commit: " . implode("\n", $commitOutput) . "\n";
         return false;
