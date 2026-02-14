@@ -1,12 +1,12 @@
 ## Hi There, catch up with what i have been doing lately !
 *A collection of my recent contributions to the Symfony ecosystem.*
 ### 🏗️ Symfony Core
+* [[FrameworkBundle] Add decoration stack to `debug:container` command #63242](https://github.com/symfony/symfony/pull/63242) ![](https://img.shields.io/badge/Merged-purple?style=flat-square)
 * [[DependencyInjection] Add `target` parameter to `#[AsAlias]` attribute #63181](https://github.com/symfony/symfony/pull/63181) ![](https://img.shields.io/badge/Merged-purple?style=flat-square)
 * [[FrameworkBundle] Fix `debug:container --tag=service.tag` not showing priority of `#[AsTaggedItem]` #63028](https://github.com/symfony/symfony/pull/63028) ![](https://img.shields.io/badge/Merged-purple?style=flat-square)
 * [[Console] Fix choice autocomplete issue when string has spaces #62827](https://github.com/symfony/symfony/pull/62827) ![](https://img.shields.io/badge/Merged-purple?style=flat-square)
 * [[DependencyInjection][SecurityBundle] Leverage `#[AsTaggedItem]` for voters #62824](https://github.com/symfony/symfony/pull/62824) ![](https://img.shields.io/badge/Merged-purple?style=flat-square)
 * [[HttpKernel] Make `#[Cache]` respect all explicit cache directives set in controller #62488](https://github.com/symfony/symfony/pull/62488) ![](https://img.shields.io/badge/Merged-purple?style=flat-square)
-* [[FrameworkBundle] Add decoration stack to `debug:container` command #63242](https://github.com/symfony/symfony/pull/63242) ![](https://img.shields.io/badge/Open-green?style=flat-square)
 ### 📚 Documentation
 * [[Security] Document #[AsTaggedItem] support for voter priority #21658](https://github.com/symfony/symfony-docs/pull/21658) ![](https://img.shields.io/badge/Published-blue?style=flat-square)
 * [[Cache] Clarify `#[Cache]` attribute precedence behavior #21590](https://github.com/symfony/symfony-docs/pull/21590) ![](https://img.shields.io/badge/Published-blue?style=flat-square)
