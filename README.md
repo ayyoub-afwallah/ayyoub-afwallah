@@ -16,8 +16,8 @@
 ### 🤖 Fabbot
 * [Add check for commit attribution #15](https://github.com/symfony-tools/fabbot/pull/15) ![](https://img.shields.io/badge/Open-green?style=flat-square)
 ### 🛠️ Maker Bundle
+* [[maker:controller] Fix invokable `-i` conflict with APP_ID  `-i` #1761](https://github.com/symfony/maker-bundle/pull/1761) ![](https://img.shields.io/badge/Merged-purple?style=flat-square)
+* [[Make:Voter] Add Missing Vote param in `voteOnAttribute()` #1759](https://github.com/symfony/maker-bundle/pull/1759) ![](https://img.shields.io/badge/Merged-purple?style=flat-square)
 * [[Generator] correct createClassNameDetails doc #1143](https://github.com/symfony/maker-bundle/pull/1143) ![](https://img.shields.io/badge/Merged-purple?style=flat-square)
-* [[maker:controller] Fix invokable `-i` conflict with APP_ID  `-i` #1761](https://github.com/symfony/maker-bundle/pull/1761) ![](https://img.shields.io/badge/Open-green?style=flat-square)
-* [[Make:Voter] Add Missing Vote param in `voteOnAttribute()` #1759](https://github.com/symfony/maker-bundle/pull/1759) ![](https://img.shields.io/badge/Open-green?style=flat-square)
 ---
 💬 **[View my full PR history](https://github.com/pulls?q=is%3Apr+author%3Aayyoub-afwallah)**
