@@ -20,6 +20,10 @@ const REPOS = [
                 'title' => '🏗️ Symfony Core',
                 'order' => 1
         ],
+        'symfony/maker-bundle' => [
+                'title' => '🛠️ Maker Bundle',
+                'order' => 5
+        ],
         'symfony/symfony-docs' => [
                 'title' => '📚 Documentation',
                 'order' => 2
@@ -31,11 +35,7 @@ const REPOS = [
         'symfony-tools/fabbot' => [
                 'title' => '🤖 Fabbot',
                 'order' => 4
-        ],
-        'symfony/maker-bundle' => [
-                'title' => '🛠️ Maker Bundle',
-                'order' => 5
-        ],
+        ]
 ];
 
 // Status badge configurations
